@@ -42,12 +42,12 @@
                     </span>
                 </div>
                 <div class="dn-dx">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav" style="font-size: 10px">
                         @if (ViewBag.FullName == null)
                         {
-                            <a class="dn-dx__login"> @Html.ActionLink("Đăng nhập", "Index", "Login")</a>
+                            <a class="dn-dx__login" style="color: #f7c24b"> @Html.ActionLink("Đăng nhập", "Index", "Login")</a>
                             <span>|</span>
-                            <a class="dn-dx__signup">@Html.ActionLink("Đăng ký", "Index", "Register")</a>
+                            <a class="dn-dx__signup" style="color: #f7c24b">@Html.ActionLink("Đăng ký", "Index", "Register")</a>
                         }
                         else
                         {
